@@ -1,0 +1,28 @@
+/* Helps prevent flicker in JQM */
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+
+.active_bar {
+	border:1px solid #155678;
+	background:#387bbe;
+	font-weight:bold;
+	color: #fff;
+	cursor:pointer;
+	text-shadow: 0 -1px 1px #145072;
+	text-decoration:none;
+	background-image:-webkit-gradient(linear, left top, left bottom, from( #49A1F8 ), to( #265483 ));
+	background-image:-webkit-linear-gradient(top, #49A1F8, #265483 );
+	background-image:   -moz-linear-gradient(top, #49A1F8, #265483 );
+	background-image:    -ms-linear-gradient(top, #49A1F8, #265483 );
+	background-image:     -o-linear-gradient(top, #49A1F8, #265483 );
+	background-image:        linear-gradient(top, #49A1F8, #265483 );
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+.nav-menu .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+.nav-menu .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+
+#icon1 .ui-icon { background:  url(images/icon-bar1.png) 50% 50% no-repeat;  background-size: 24px 26px; }
+#icon2 .ui-icon { background:  url(images/icon-bar1.png) 50% 50% no-repeat;  background-size: 24px 26px; }
+#icon3 .ui-icon { background:  url(images/icon-bar1.png) 50% 50% no-repeat;  background-size: 24px 26px; }
